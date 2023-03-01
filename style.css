@@ -7,11 +7,11 @@ body {
     background-color: rgb(192, 231, 244);
     font-weight: 300;
     font-family: 'Inter', sans-serif;
+    margin: 20px;
 }
 
 .main-container {
     background-color: white;
-    height: 90%;
     min-width: 300px;
     max-width: 450px;
     margin: 20px auto;
@@ -133,10 +133,7 @@ li span {
 @media only screen and (min-width: 768px) {
 
     .main-container {
-        height: 90%;
         min-width: 450px;
-        margin: 20px auto;
-        border-radius: 5px;
     }
 
     .lightblue-container {
@@ -147,7 +144,7 @@ li span {
     }
 
     .blue-container {
-        height: 20%;
+        height: 30%;
         background-color: rgb(41, 133, 238);
         display: flex;
         align-items: flex-start;
@@ -212,4 +209,43 @@ li span {
     li {
         margin: 0px 0 15px;
     }
+}
+
+/* Large devices (laptops/desktops, 992px and up) */
+@media only screen and (min-width: 992px) {
+
+    .main-container {
+        min-width: 550px;
+        margin: 20px auto;
+        border-radius: 5px;
+    }
+
+    .social-links-container {
+        padding: 0 35px;
+    }
+
+    h2 {
+        font-size: 30px;
+    }
+
+    h3 {
+        font-size: 16px;
+    }
+    
+    h5 {
+        font-size: 18px;
+    }
+    
+    h6 {
+        font-size: 14px;
+    }
+    
+    p {
+        font-size: 14px;
+    }
+
+    ul {
+        font-size: 14px;
+    }
+   
 }
